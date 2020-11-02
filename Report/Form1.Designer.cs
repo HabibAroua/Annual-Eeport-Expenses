@@ -33,7 +33,7 @@
             // 
             // btClick
             // 
-            this.btClick.Location = new System.Drawing.Point(144, 230);
+            this.btClick.Location = new System.Drawing.Point(202, 236);
             this.btClick.Name = "btClick";
             this.btClick.Size = new System.Drawing.Size(75, 23);
             this.btClick.TabIndex = 0;
