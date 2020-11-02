@@ -1,0 +1,10 @@
+C:\Users\lenovo\source\repos\Report\Report\bin\Debug\Report.exe.config
+C:\Users\lenovo\source\repos\Report\Report\bin\Debug\Report.exe
+C:\Users\lenovo\source\repos\Report\Report\bin\Debug\Report.pdb
+C:\Users\lenovo\source\repos\Report\Report\obj\Debug\Report.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\Report\Report\obj\Debug\Report.Form1.resources
+C:\Users\lenovo\source\repos\Report\Report\obj\Debug\Report.Properties.Resources.resources
+C:\Users\lenovo\source\repos\Report\Report\obj\Debug\Report.csproj.GenerateResource.cache
+C:\Users\lenovo\source\repos\Report\Report\obj\Debug\Report.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\Report\Report\obj\Debug\Report.exe
+C:\Users\lenovo\source\repos\Report\Report\obj\Debug\Report.pdb
