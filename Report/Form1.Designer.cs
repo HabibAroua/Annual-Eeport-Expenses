@@ -55,6 +55,7 @@
             this.ColumnCostForeign = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.LabelMonth = new System.Windows.Forms.Label();
+            this.BtTest = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SPanel.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -184,6 +185,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.BtTest);
             this.panel2.Controls.Add(this.LabelMonth);
             this.panel2.Controls.Add(this.LabelActivities);
             this.panel2.Controls.Add(this.dataGridView1);
@@ -237,6 +239,13 @@
             resources.ApplyResources(this.LabelMonth, "LabelMonth");
             this.LabelMonth.Name = "LabelMonth";
             // 
+            // BtTest
+            // 
+            resources.ApplyResources(this.BtTest, "BtTest");
+            this.BtTest.Name = "BtTest";
+            this.BtTest.UseVisualStyleBackColor = true;
+            this.BtTest.Click += new System.EventHandler(this.BtTest_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -285,6 +294,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnCost;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnCostForeign;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnDate;
+        private System.Windows.Forms.Button BtTest;
     }
 }
 
