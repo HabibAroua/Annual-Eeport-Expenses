@@ -52,7 +52,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel1.Controls.Add(this.BtHide);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel1.Location = new System.Drawing.Point(803, 0);
@@ -73,7 +73,7 @@
             // 
             // SPanel
             // 
-            this.SPanel.BackColor = System.Drawing.Color.Gray;
+            this.SPanel.BackColor = System.Drawing.Color.LightGray;
             this.SPanel.Controls.Add(this.btDecember);
             this.SPanel.Controls.Add(this.BtNovember);
             this.SPanel.Controls.Add(this.BtOctober);
@@ -98,115 +98,115 @@
             // 
             // BtJanuary
             // 
-            this.BtJanuary.Location = new System.Drawing.Point(63, 26);
+            this.BtJanuary.Location = new System.Drawing.Point(6, 26);
             this.BtJanuary.Name = "BtJanuary";
-            this.BtJanuary.Size = new System.Drawing.Size(75, 23);
+            this.BtJanuary.Size = new System.Drawing.Size(188, 23);
             this.BtJanuary.TabIndex = 0;
             this.BtJanuary.Text = "January";
             this.BtJanuary.UseVisualStyleBackColor = true;
             // 
             // BtFebruary
             // 
-            this.BtFebruary.Location = new System.Drawing.Point(63, 55);
+            this.BtFebruary.Location = new System.Drawing.Point(6, 55);
             this.BtFebruary.Name = "BtFebruary";
-            this.BtFebruary.Size = new System.Drawing.Size(75, 23);
+            this.BtFebruary.Size = new System.Drawing.Size(188, 23);
             this.BtFebruary.TabIndex = 1;
             this.BtFebruary.Text = "February";
             this.BtFebruary.UseVisualStyleBackColor = true;
             // 
             // BtApril
             // 
-            this.BtApril.Location = new System.Drawing.Point(63, 111);
+            this.BtApril.Location = new System.Drawing.Point(6, 111);
             this.BtApril.Name = "BtApril";
-            this.BtApril.Size = new System.Drawing.Size(75, 23);
+            this.BtApril.Size = new System.Drawing.Size(188, 23);
             this.BtApril.TabIndex = 3;
             this.BtApril.Text = "April";
             this.BtApril.UseVisualStyleBackColor = true;
             // 
             // BtMars
             // 
-            this.BtMars.Location = new System.Drawing.Point(63, 82);
+            this.BtMars.Location = new System.Drawing.Point(6, 82);
             this.BtMars.Name = "BtMars";
-            this.BtMars.Size = new System.Drawing.Size(75, 23);
+            this.BtMars.Size = new System.Drawing.Size(188, 23);
             this.BtMars.TabIndex = 2;
             this.BtMars.Text = "Mars";
             this.BtMars.UseVisualStyleBackColor = true;
             // 
             // BtAgustus
             // 
-            this.BtAgustus.Location = new System.Drawing.Point(63, 229);
+            this.BtAgustus.Location = new System.Drawing.Point(6, 229);
             this.BtAgustus.Name = "BtAgustus";
-            this.BtAgustus.Size = new System.Drawing.Size(75, 23);
+            this.BtAgustus.Size = new System.Drawing.Size(188, 23);
             this.BtAgustus.TabIndex = 7;
             this.BtAgustus.Text = "Agustus";
             this.BtAgustus.UseVisualStyleBackColor = true;
             // 
             // BtJuly
             // 
-            this.BtJuly.Location = new System.Drawing.Point(63, 200);
+            this.BtJuly.Location = new System.Drawing.Point(6, 200);
             this.BtJuly.Name = "BtJuly";
-            this.BtJuly.Size = new System.Drawing.Size(75, 23);
+            this.BtJuly.Size = new System.Drawing.Size(188, 23);
             this.BtJuly.TabIndex = 6;
             this.BtJuly.Text = "July";
             this.BtJuly.UseVisualStyleBackColor = true;
             // 
             // BtJune
             // 
-            this.BtJune.Location = new System.Drawing.Point(63, 173);
+            this.BtJune.Location = new System.Drawing.Point(6, 173);
             this.BtJune.Name = "BtJune";
-            this.BtJune.Size = new System.Drawing.Size(75, 23);
+            this.BtJune.Size = new System.Drawing.Size(188, 23);
             this.BtJune.TabIndex = 5;
             this.BtJune.Text = "June";
             this.BtJune.UseVisualStyleBackColor = true;
             // 
             // BtMay
             // 
-            this.BtMay.Location = new System.Drawing.Point(63, 144);
+            this.BtMay.Location = new System.Drawing.Point(6, 144);
             this.BtMay.Name = "BtMay";
-            this.BtMay.Size = new System.Drawing.Size(75, 23);
+            this.BtMay.Size = new System.Drawing.Size(188, 23);
             this.BtMay.TabIndex = 4;
             this.BtMay.Text = "May";
             this.BtMay.UseVisualStyleBackColor = true;
             // 
             // btDecember
             // 
-            this.btDecember.Location = new System.Drawing.Point(63, 349);
+            this.btDecember.Location = new System.Drawing.Point(6, 345);
             this.btDecember.Name = "btDecember";
-            this.btDecember.Size = new System.Drawing.Size(75, 23);
+            this.btDecember.Size = new System.Drawing.Size(188, 23);
             this.btDecember.TabIndex = 11;
             this.btDecember.Text = "December";
             this.btDecember.UseVisualStyleBackColor = true;
             // 
             // BtNovember
             // 
-            this.BtNovember.Location = new System.Drawing.Point(63, 320);
+            this.BtNovember.Location = new System.Drawing.Point(6, 316);
             this.BtNovember.Name = "BtNovember";
-            this.BtNovember.Size = new System.Drawing.Size(75, 23);
+            this.BtNovember.Size = new System.Drawing.Size(188, 23);
             this.BtNovember.TabIndex = 10;
             this.BtNovember.Text = "November";
             this.BtNovember.UseVisualStyleBackColor = true;
             // 
             // BtOctober
             // 
-            this.BtOctober.Location = new System.Drawing.Point(63, 293);
+            this.BtOctober.Location = new System.Drawing.Point(6, 287);
             this.BtOctober.Name = "BtOctober";
-            this.BtOctober.Size = new System.Drawing.Size(75, 23);
+            this.BtOctober.Size = new System.Drawing.Size(188, 23);
             this.BtOctober.TabIndex = 9;
             this.BtOctober.Text = "October";
             this.BtOctober.UseVisualStyleBackColor = true;
             // 
             // BtSeptember
             // 
-            this.BtSeptember.Location = new System.Drawing.Point(63, 264);
+            this.BtSeptember.Location = new System.Drawing.Point(6, 258);
             this.BtSeptember.Name = "BtSeptember";
-            this.BtSeptember.Size = new System.Drawing.Size(75, 23);
+            this.BtSeptember.Size = new System.Drawing.Size(188, 23);
             this.BtSeptember.TabIndex = 8;
             this.BtSeptember.Text = "September";
             this.BtSeptember.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.Control;
+            this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
