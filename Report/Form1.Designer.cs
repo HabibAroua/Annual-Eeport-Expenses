@@ -33,18 +33,18 @@
             this.BtHide = new System.Windows.Forms.Button();
             this.SPanel = new System.Windows.Forms.Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
+            this.BtJanuary = new System.Windows.Forms.Button();
+            this.BtFebruary = new System.Windows.Forms.Button();
+            this.BtApril = new System.Windows.Forms.Button();
+            this.BtMars = new System.Windows.Forms.Button();
+            this.BtAgustus = new System.Windows.Forms.Button();
+            this.BtJuly = new System.Windows.Forms.Button();
+            this.BtJune = new System.Windows.Forms.Button();
+            this.BtMay = new System.Windows.Forms.Button();
+            this.btDecember = new System.Windows.Forms.Button();
+            this.BtNovember = new System.Windows.Forms.Button();
+            this.BtOctober = new System.Windows.Forms.Button();
+            this.BtSeptember = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SPanel.SuspendLayout();
             this.SuspendLayout();
@@ -73,18 +73,18 @@
             // SPanel
             // 
             this.SPanel.BackColor = System.Drawing.Color.Gray;
-            this.SPanel.Controls.Add(this.button9);
-            this.SPanel.Controls.Add(this.button10);
-            this.SPanel.Controls.Add(this.button11);
-            this.SPanel.Controls.Add(this.button12);
-            this.SPanel.Controls.Add(this.button5);
-            this.SPanel.Controls.Add(this.button6);
-            this.SPanel.Controls.Add(this.button7);
-            this.SPanel.Controls.Add(this.button8);
-            this.SPanel.Controls.Add(this.button3);
-            this.SPanel.Controls.Add(this.button4);
-            this.SPanel.Controls.Add(this.button2);
-            this.SPanel.Controls.Add(this.button1);
+            this.SPanel.Controls.Add(this.btDecember);
+            this.SPanel.Controls.Add(this.BtNovember);
+            this.SPanel.Controls.Add(this.BtOctober);
+            this.SPanel.Controls.Add(this.BtSeptember);
+            this.SPanel.Controls.Add(this.BtAgustus);
+            this.SPanel.Controls.Add(this.BtJuly);
+            this.SPanel.Controls.Add(this.BtJune);
+            this.SPanel.Controls.Add(this.BtMay);
+            this.SPanel.Controls.Add(this.BtApril);
+            this.SPanel.Controls.Add(this.BtMars);
+            this.SPanel.Controls.Add(this.BtFebruary);
+            this.SPanel.Controls.Add(this.BtJanuary);
             this.SPanel.Dock = System.Windows.Forms.DockStyle.Right;
             this.SPanel.Location = new System.Drawing.Point(603, 0);
             this.SPanel.Name = "SPanel";
@@ -95,113 +95,113 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // button1
+            // BtJanuary
             // 
-            this.button1.Location = new System.Drawing.Point(63, 26);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BtJanuary.Location = new System.Drawing.Point(63, 26);
+            this.BtJanuary.Name = "BtJanuary";
+            this.BtJanuary.Size = new System.Drawing.Size(75, 23);
+            this.BtJanuary.TabIndex = 0;
+            this.BtJanuary.Text = "January";
+            this.BtJanuary.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // BtFebruary
             // 
-            this.button2.Location = new System.Drawing.Point(63, 55);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.BtFebruary.Location = new System.Drawing.Point(63, 55);
+            this.BtFebruary.Name = "BtFebruary";
+            this.BtFebruary.Size = new System.Drawing.Size(75, 23);
+            this.BtFebruary.TabIndex = 1;
+            this.BtFebruary.Text = "February";
+            this.BtFebruary.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // BtApril
             // 
-            this.button3.Location = new System.Drawing.Point(63, 111);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.BtApril.Location = new System.Drawing.Point(63, 111);
+            this.BtApril.Name = "BtApril";
+            this.BtApril.Size = new System.Drawing.Size(75, 23);
+            this.BtApril.TabIndex = 3;
+            this.BtApril.Text = "April";
+            this.BtApril.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // BtMars
             // 
-            this.button4.Location = new System.Drawing.Point(63, 82);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.BtMars.Location = new System.Drawing.Point(63, 82);
+            this.BtMars.Name = "BtMars";
+            this.BtMars.Size = new System.Drawing.Size(75, 23);
+            this.BtMars.TabIndex = 2;
+            this.BtMars.Text = "Mars";
+            this.BtMars.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // BtAgustus
             // 
-            this.button5.Location = new System.Drawing.Point(63, 229);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.BtAgustus.Location = new System.Drawing.Point(63, 229);
+            this.BtAgustus.Name = "BtAgustus";
+            this.BtAgustus.Size = new System.Drawing.Size(75, 23);
+            this.BtAgustus.TabIndex = 7;
+            this.BtAgustus.Text = "Agustus";
+            this.BtAgustus.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // BtJuly
             // 
-            this.button6.Location = new System.Drawing.Point(63, 200);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.BtJuly.Location = new System.Drawing.Point(63, 200);
+            this.BtJuly.Name = "BtJuly";
+            this.BtJuly.Size = new System.Drawing.Size(75, 23);
+            this.BtJuly.TabIndex = 6;
+            this.BtJuly.Text = "July";
+            this.BtJuly.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // BtJune
             // 
-            this.button7.Location = new System.Drawing.Point(63, 173);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 5;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.BtJune.Location = new System.Drawing.Point(63, 173);
+            this.BtJune.Name = "BtJune";
+            this.BtJune.Size = new System.Drawing.Size(75, 23);
+            this.BtJune.TabIndex = 5;
+            this.BtJune.Text = "June";
+            this.BtJune.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // BtMay
             // 
-            this.button8.Location = new System.Drawing.Point(63, 144);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 4;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
+            this.BtMay.Location = new System.Drawing.Point(63, 144);
+            this.BtMay.Name = "BtMay";
+            this.BtMay.Size = new System.Drawing.Size(75, 23);
+            this.BtMay.TabIndex = 4;
+            this.BtMay.Text = "May";
+            this.BtMay.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // btDecember
             // 
-            this.button9.Location = new System.Drawing.Point(63, 349);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 23);
-            this.button9.TabIndex = 11;
-            this.button9.Text = "button9";
-            this.button9.UseVisualStyleBackColor = true;
+            this.btDecember.Location = new System.Drawing.Point(63, 349);
+            this.btDecember.Name = "btDecember";
+            this.btDecember.Size = new System.Drawing.Size(75, 23);
+            this.btDecember.TabIndex = 11;
+            this.btDecember.Text = "December";
+            this.btDecember.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // BtNovember
             // 
-            this.button10.Location = new System.Drawing.Point(63, 320);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 23);
-            this.button10.TabIndex = 10;
-            this.button10.Text = "button10";
-            this.button10.UseVisualStyleBackColor = true;
+            this.BtNovember.Location = new System.Drawing.Point(63, 320);
+            this.BtNovember.Name = "BtNovember";
+            this.BtNovember.Size = new System.Drawing.Size(75, 23);
+            this.BtNovember.TabIndex = 10;
+            this.BtNovember.Text = "November";
+            this.BtNovember.UseVisualStyleBackColor = true;
             // 
-            // button11
+            // BtOctober
             // 
-            this.button11.Location = new System.Drawing.Point(63, 293);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 23);
-            this.button11.TabIndex = 9;
-            this.button11.Text = "button11";
-            this.button11.UseVisualStyleBackColor = true;
+            this.BtOctober.Location = new System.Drawing.Point(63, 293);
+            this.BtOctober.Name = "BtOctober";
+            this.BtOctober.Size = new System.Drawing.Size(75, 23);
+            this.BtOctober.TabIndex = 9;
+            this.BtOctober.Text = "October";
+            this.BtOctober.UseVisualStyleBackColor = true;
             // 
-            // button12
+            // BtSeptember
             // 
-            this.button12.Location = new System.Drawing.Point(63, 264);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 23);
-            this.button12.TabIndex = 8;
-            this.button12.Text = "button12";
-            this.button12.UseVisualStyleBackColor = true;
+            this.BtSeptember.Location = new System.Drawing.Point(63, 264);
+            this.BtSeptember.Name = "BtSeptember";
+            this.BtSeptember.Size = new System.Drawing.Size(75, 23);
+            this.BtSeptember.TabIndex = 8;
+            this.BtSeptember.Text = "September";
+            this.BtSeptember.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -211,7 +211,7 @@
             this.Controls.Add(this.SPanel);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "A.R.E";
             this.panel1.ResumeLayout(false);
             this.SPanel.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -223,18 +223,18 @@
         private System.Windows.Forms.Button BtHide;
         private System.Windows.Forms.Panel SPanel;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btDecember;
+        private System.Windows.Forms.Button BtNovember;
+        private System.Windows.Forms.Button BtOctober;
+        private System.Windows.Forms.Button BtSeptember;
+        private System.Windows.Forms.Button BtAgustus;
+        private System.Windows.Forms.Button BtJuly;
+        private System.Windows.Forms.Button BtJune;
+        private System.Windows.Forms.Button BtMay;
+        private System.Windows.Forms.Button BtApril;
+        private System.Windows.Forms.Button BtMars;
+        private System.Windows.Forms.Button BtFebruary;
+        private System.Windows.Forms.Button BtJanuary;
     }
 }
 
