@@ -114,6 +114,7 @@
             this.BtJanuary.TabIndex = 0;
             this.BtJanuary.Text = "January";
             this.BtJanuary.UseVisualStyleBackColor = true;
+            this.BtJanuary.Click += new System.EventHandler(this.BtJanuary_Click);
             // 
             // BtFebruary
             // 
@@ -123,6 +124,7 @@
             this.BtFebruary.TabIndex = 1;
             this.BtFebruary.Text = "February";
             this.BtFebruary.UseVisualStyleBackColor = true;
+            this.BtFebruary.Click += new System.EventHandler(this.BtFebruary_Click);
             // 
             // BtApril
             // 
@@ -132,6 +134,7 @@
             this.BtApril.TabIndex = 3;
             this.BtApril.Text = "April";
             this.BtApril.UseVisualStyleBackColor = true;
+            this.BtApril.Click += new System.EventHandler(this.BtApril_Click);
             // 
             // BtMars
             // 
@@ -141,6 +144,7 @@
             this.BtMars.TabIndex = 2;
             this.BtMars.Text = "Mars";
             this.BtMars.UseVisualStyleBackColor = true;
+            this.BtMars.Click += new System.EventHandler(this.BtMars_Click);
             // 
             // BtAgustus
             // 
@@ -150,6 +154,7 @@
             this.BtAgustus.TabIndex = 7;
             this.BtAgustus.Text = "Agustus";
             this.BtAgustus.UseVisualStyleBackColor = true;
+            this.BtAgustus.Click += new System.EventHandler(this.BtAgustus_Click);
             // 
             // BtJuly
             // 
@@ -159,6 +164,7 @@
             this.BtJuly.TabIndex = 6;
             this.BtJuly.Text = "July";
             this.BtJuly.UseVisualStyleBackColor = true;
+            this.BtJuly.Click += new System.EventHandler(this.BtJuly_Click);
             // 
             // BtJune
             // 
@@ -168,6 +174,7 @@
             this.BtJune.TabIndex = 5;
             this.BtJune.Text = "June";
             this.BtJune.UseVisualStyleBackColor = true;
+            this.BtJune.Click += new System.EventHandler(this.BtJune_Click);
             // 
             // BtMay
             // 
@@ -177,6 +184,7 @@
             this.BtMay.TabIndex = 4;
             this.BtMay.Text = "May";
             this.BtMay.UseVisualStyleBackColor = true;
+            this.BtMay.Click += new System.EventHandler(this.BtMay_Click);
             // 
             // btDecember
             // 
@@ -186,6 +194,7 @@
             this.btDecember.TabIndex = 11;
             this.btDecember.Text = "December";
             this.btDecember.UseVisualStyleBackColor = true;
+            this.btDecember.Click += new System.EventHandler(this.btDecember_Click);
             // 
             // BtNovember
             // 
@@ -195,6 +204,7 @@
             this.BtNovember.TabIndex = 10;
             this.BtNovember.Text = "November";
             this.BtNovember.UseVisualStyleBackColor = true;
+            this.BtNovember.Click += new System.EventHandler(this.BtNovember_Click);
             // 
             // BtOctober
             // 
@@ -204,6 +214,7 @@
             this.BtOctober.TabIndex = 9;
             this.BtOctober.Text = "October";
             this.BtOctober.UseVisualStyleBackColor = true;
+            this.BtOctober.Click += new System.EventHandler(this.BtOctober_Click);
             // 
             // BtSeptember
             // 
@@ -213,6 +224,7 @@
             this.BtSeptember.TabIndex = 8;
             this.BtSeptember.Text = "September";
             this.BtSeptember.UseVisualStyleBackColor = true;
+            this.BtSeptember.Click += new System.EventHandler(this.BtSeptember_Click);
             // 
             // panel2
             // 
