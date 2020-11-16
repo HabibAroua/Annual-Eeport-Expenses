@@ -58,5 +58,65 @@ namespace Report
                 }
             }
         }
+
+        private void BtJanuary_Click(object sender, EventArgs e)
+        {
+            LabelActivities.Text = "January";
+        }
+
+        private void BtFebruary_Click(object sender, EventArgs e)
+        {
+            LabelActivities.Text = "February";
+        }
+
+        private void BtMars_Click(object sender, EventArgs e)
+        {
+            LabelActivities.Text = "Mars";
+        }
+
+        private void BtApril_Click(object sender, EventArgs e)
+        {
+            LabelActivities.Text = "April";
+        }
+
+        private void BtMay_Click(object sender, EventArgs e)
+        {
+            LabelActivities.Text = "May";
+        }
+
+        private void BtJune_Click(object sender, EventArgs e)
+        {
+            LabelActivities.Text = "June";
+        }
+
+        private void BtJuly_Click(object sender, EventArgs e)
+        {
+            LabelActivities.Text = "July";
+        }
+
+        private void BtAgustus_Click(object sender, EventArgs e)
+        {
+            LabelActivities.Text = "Agustus";
+        }
+
+        private void BtSeptember_Click(object sender, EventArgs e)
+        {
+            LabelActivities.Text = "September";
+        }
+
+        private void BtOctober_Click(object sender, EventArgs e)
+        {
+            LabelActivities.Text = "October";
+        }
+
+        private void BtNovember_Click(object sender, EventArgs e)
+        {
+            LabelActivities.Text = "November";
+        }
+
+        private void btDecember_Click(object sender, EventArgs e)
+        {
+            LabelActivities.Text = "December";
+        }
     }
 }
