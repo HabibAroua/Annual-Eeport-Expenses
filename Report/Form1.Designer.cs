@@ -46,8 +46,18 @@
             this.BtOctober = new System.Windows.Forms.Button();
             this.BtSeptember = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.LabelActivities = new System.Windows.Forms.Label();
+            this.ColumnActivity = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnBenefit = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnCost = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnCostForeign = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LabelMonth = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SPanel.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -207,11 +217,72 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.LabelMonth);
+            this.panel2.Controls.Add(this.LabelActivities);
+            this.panel2.Controls.Add(this.dataGridView1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(603, 426);
             this.panel2.TabIndex = 3;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ColumnActivity,
+            this.ColumnBenefit,
+            this.ColumnCost,
+            this.ColumnCostForeign,
+            this.ColumnDate});
+            this.dataGridView1.Location = new System.Drawing.Point(45, 82);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(497, 300);
+            this.dataGridView1.TabIndex = 0;
+            // 
+            // LabelActivities
+            // 
+            this.LabelActivities.AutoSize = true;
+            this.LabelActivities.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Millimeter, ((byte)(0)));
+            this.LabelActivities.Location = new System.Drawing.Point(34, 13);
+            this.LabelActivities.Name = "LabelActivities";
+            this.LabelActivities.Size = new System.Drawing.Size(306, 65);
+            this.LabelActivities.TabIndex = 1;
+            this.LabelActivities.Text = "Activties of";
+            // 
+            // ColumnActivity
+            // 
+            this.ColumnActivity.HeaderText = "Activity";
+            this.ColumnActivity.Name = "ColumnActivity";
+            // 
+            // ColumnBenefit
+            // 
+            this.ColumnBenefit.HeaderText = "Benefit";
+            this.ColumnBenefit.Name = "ColumnBenefit";
+            // 
+            // ColumnCost
+            // 
+            this.ColumnCost.HeaderText = "Cost";
+            this.ColumnCost.Name = "ColumnCost";
+            // 
+            // ColumnCostForeign
+            // 
+            this.ColumnCostForeign.HeaderText = "Cost Foreign Currency";
+            this.ColumnCostForeign.Name = "ColumnCostForeign";
+            // 
+            // ColumnDate
+            // 
+            this.ColumnDate.HeaderText = "Date";
+            this.ColumnDate.Name = "ColumnDate";
+            // 
+            // LabelMonth
+            // 
+            this.LabelMonth.AutoSize = true;
+            this.LabelMonth.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Millimeter, ((byte)(0)));
+            this.LabelMonth.Location = new System.Drawing.Point(326, 13);
+            this.LabelMonth.Name = "LabelMonth";
+            this.LabelMonth.Size = new System.Drawing.Size(0, 65);
+            this.LabelMonth.TabIndex = 2;
             // 
             // Form1
             // 
@@ -225,6 +296,9 @@
             this.Text = "A.R.E";
             this.panel1.ResumeLayout(false);
             this.SPanel.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -247,6 +321,14 @@
         private System.Windows.Forms.Button BtFebruary;
         private System.Windows.Forms.Button BtJanuary;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label LabelMonth;
+        private System.Windows.Forms.Label LabelActivities;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnActivity;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnBenefit;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnCost;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnCostForeign;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnDate;
     }
 }
 
