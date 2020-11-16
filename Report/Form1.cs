@@ -61,62 +61,62 @@ namespace Report
 
         private void BtJanuary_Click(object sender, EventArgs e)
         {
-            LabelActivities.Text = "January";
+            LabelMonth.Text = "January";
         }
 
         private void BtFebruary_Click(object sender, EventArgs e)
         {
-            LabelActivities.Text = "February";
+            LabelMonth.Text = "February";
         }
 
         private void BtMars_Click(object sender, EventArgs e)
         {
-            LabelActivities.Text = "Mars";
+            LabelMonth.Text = "Mars";
         }
 
         private void BtApril_Click(object sender, EventArgs e)
         {
-            LabelActivities.Text = "April";
+            LabelMonth.Text = "April";
         }
 
         private void BtMay_Click(object sender, EventArgs e)
         {
-            LabelActivities.Text = "May";
+            LabelMonth.Text = "May";
         }
 
         private void BtJune_Click(object sender, EventArgs e)
         {
-            LabelActivities.Text = "June";
+            LabelMonth.Text = "June";
         }
 
         private void BtJuly_Click(object sender, EventArgs e)
         {
-            LabelActivities.Text = "July";
+            LabelMonth.Text = "July";
         }
 
         private void BtAgustus_Click(object sender, EventArgs e)
         {
-            LabelActivities.Text = "Agustus";
+            LabelMonth.Text = "Agustus";
         }
 
         private void BtSeptember_Click(object sender, EventArgs e)
         {
-            LabelActivities.Text = "September";
+            LabelMonth.Text = "September";
         }
 
         private void BtOctober_Click(object sender, EventArgs e)
         {
-            LabelActivities.Text = "October";
+            LabelMonth.Text = "October";
         }
 
         private void BtNovember_Click(object sender, EventArgs e)
         {
-            LabelActivities.Text = "November";
+            LabelMonth.Text = "November";
         }
 
         private void btDecember_Click(object sender, EventArgs e)
         {
-            LabelActivities.Text = "December";
+            LabelMonth.Text = "December";
         }
     }
 }
