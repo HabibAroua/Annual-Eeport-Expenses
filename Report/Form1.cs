@@ -22,11 +22,6 @@ namespace Report
             Hided = false;
         }
 
-        private void btClick_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Hello","Message",MessageBoxButtons.OK,MessageBoxIcon.Information);
-        }
-
         private void BtHide_Click(object sender, EventArgs e)
         {
             if (Hided)
