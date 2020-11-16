@@ -117,9 +117,591 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;BtHide.Name" xml:space="preserve">
+    <value>BtHide</value>
+  </data>
+  <data name="&gt;&gt;BtHide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtHide.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;BtHide.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>828, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 426</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BtHide.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="BtHide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="BtHide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 23</value>
+  </data>
+  <data name="BtHide.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BtHide.Text" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="&gt;&gt;BtHide.Name" xml:space="preserve">
+    <value>BtHide</value>
+  </data>
+  <data name="&gt;&gt;BtHide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtHide.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;BtHide.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btDecember.Name" xml:space="preserve">
+    <value>btDecember</value>
+  </data>
+  <data name="&gt;&gt;btDecember.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btDecember.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;btDecember.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BtNovember.Name" xml:space="preserve">
+    <value>BtNovember</value>
+  </data>
+  <data name="&gt;&gt;BtNovember.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtNovember.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;BtNovember.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BtOctober.Name" xml:space="preserve">
+    <value>BtOctober</value>
+  </data>
+  <data name="&gt;&gt;BtOctober.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtOctober.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;BtOctober.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;BtSeptember.Name" xml:space="preserve">
+    <value>BtSeptember</value>
+  </data>
+  <data name="&gt;&gt;BtSeptember.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtSeptember.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;BtSeptember.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;BtAgustus.Name" xml:space="preserve">
+    <value>BtAgustus</value>
+  </data>
+  <data name="&gt;&gt;BtAgustus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtAgustus.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;BtAgustus.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;BtJuly.Name" xml:space="preserve">
+    <value>BtJuly</value>
+  </data>
+  <data name="&gt;&gt;BtJuly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtJuly.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;BtJuly.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;BtJune.Name" xml:space="preserve">
+    <value>BtJune</value>
+  </data>
+  <data name="&gt;&gt;BtJune.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtJune.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;BtJune.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;BtMay.Name" xml:space="preserve">
+    <value>BtMay</value>
+  </data>
+  <data name="&gt;&gt;BtMay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtMay.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;BtMay.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;BtApril.Name" xml:space="preserve">
+    <value>BtApril</value>
+  </data>
+  <data name="&gt;&gt;BtApril.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtApril.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;BtApril.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;BtMars.Name" xml:space="preserve">
+    <value>BtMars</value>
+  </data>
+  <data name="&gt;&gt;BtMars.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtMars.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;BtMars.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;BtFebruary.Name" xml:space="preserve">
+    <value>BtFebruary</value>
+  </data>
+  <data name="&gt;&gt;BtFebruary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtFebruary.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;BtFebruary.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;BtJanuary.Name" xml:space="preserve">
+    <value>BtJanuary</value>
+  </data>
+  <data name="&gt;&gt;BtJanuary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtJanuary.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;BtJanuary.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="SPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="SPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>652, 0</value>
+  </data>
+  <data name="SPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 426</value>
+  </data>
+  <data name="SPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;SPanel.Name" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;SPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="BtJanuary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 26</value>
+  </data>
+  <data name="BtJanuary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 23</value>
+  </data>
+  <data name="BtJanuary.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BtJanuary.Text" xml:space="preserve">
+    <value>January</value>
+  </data>
+  <data name="&gt;&gt;BtJanuary.Name" xml:space="preserve">
+    <value>BtJanuary</value>
+  </data>
+  <data name="&gt;&gt;BtJanuary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtJanuary.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;BtJanuary.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="BtFebruary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 55</value>
+  </data>
+  <data name="BtFebruary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 23</value>
+  </data>
+  <data name="BtFebruary.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BtFebruary.Text" xml:space="preserve">
+    <value>February</value>
+  </data>
+  <data name="&gt;&gt;BtFebruary.Name" xml:space="preserve">
+    <value>BtFebruary</value>
+  </data>
+  <data name="&gt;&gt;BtFebruary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtFebruary.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;BtFebruary.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="BtApril.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 111</value>
+  </data>
+  <data name="BtApril.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 23</value>
+  </data>
+  <data name="BtApril.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="BtApril.Text" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="&gt;&gt;BtApril.Name" xml:space="preserve">
+    <value>BtApril</value>
+  </data>
+  <data name="&gt;&gt;BtApril.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtApril.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;BtApril.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="BtMars.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 82</value>
+  </data>
+  <data name="BtMars.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 23</value>
+  </data>
+  <data name="BtMars.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BtMars.Text" xml:space="preserve">
+    <value>Mars</value>
+  </data>
+  <data name="&gt;&gt;BtMars.Name" xml:space="preserve">
+    <value>BtMars</value>
+  </data>
+  <data name="&gt;&gt;BtMars.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtMars.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;BtMars.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="BtAgustus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 229</value>
+  </data>
+  <data name="BtAgustus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 23</value>
+  </data>
+  <data name="BtAgustus.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="BtAgustus.Text" xml:space="preserve">
+    <value>Agustus</value>
+  </data>
+  <data name="&gt;&gt;BtAgustus.Name" xml:space="preserve">
+    <value>BtAgustus</value>
+  </data>
+  <data name="&gt;&gt;BtAgustus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtAgustus.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;BtAgustus.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BtJuly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 200</value>
+  </data>
+  <data name="BtJuly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 23</value>
+  </data>
+  <data name="BtJuly.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="BtJuly.Text" xml:space="preserve">
+    <value>July</value>
+  </data>
+  <data name="&gt;&gt;BtJuly.Name" xml:space="preserve">
+    <value>BtJuly</value>
+  </data>
+  <data name="&gt;&gt;BtJuly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtJuly.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;BtJuly.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="BtJune.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 173</value>
+  </data>
+  <data name="BtJune.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 23</value>
+  </data>
+  <data name="BtJune.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="BtJune.Text" xml:space="preserve">
+    <value>June</value>
+  </data>
+  <data name="&gt;&gt;BtJune.Name" xml:space="preserve">
+    <value>BtJune</value>
+  </data>
+  <data name="&gt;&gt;BtJune.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtJune.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;BtJune.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="BtMay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 144</value>
+  </data>
+  <data name="BtMay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 23</value>
+  </data>
+  <data name="BtMay.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="BtMay.Text" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="&gt;&gt;BtMay.Name" xml:space="preserve">
+    <value>BtMay</value>
+  </data>
+  <data name="&gt;&gt;BtMay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtMay.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;BtMay.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btDecember.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 345</value>
+  </data>
+  <data name="btDecember.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 23</value>
+  </data>
+  <data name="btDecember.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btDecember.Text" xml:space="preserve">
+    <value>December</value>
+  </data>
+  <data name="&gt;&gt;btDecember.Name" xml:space="preserve">
+    <value>btDecember</value>
+  </data>
+  <data name="&gt;&gt;btDecember.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btDecember.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;btDecember.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtNovember.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 316</value>
+  </data>
+  <data name="BtNovember.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 23</value>
+  </data>
+  <data name="BtNovember.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="BtNovember.Text" xml:space="preserve">
+    <value>November</value>
+  </data>
+  <data name="&gt;&gt;BtNovember.Name" xml:space="preserve">
+    <value>BtNovember</value>
+  </data>
+  <data name="&gt;&gt;BtNovember.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtNovember.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;BtNovember.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtOctober.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 287</value>
+  </data>
+  <data name="BtOctober.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 23</value>
+  </data>
+  <data name="BtOctober.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="BtOctober.Text" xml:space="preserve">
+    <value>October</value>
+  </data>
+  <data name="&gt;&gt;BtOctober.Name" xml:space="preserve">
+    <value>BtOctober</value>
+  </data>
+  <data name="&gt;&gt;BtOctober.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtOctober.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;BtOctober.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BtSeptember.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 258</value>
+  </data>
+  <data name="BtSeptember.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 23</value>
+  </data>
+  <data name="BtSeptember.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="BtSeptember.Text" xml:space="preserve">
+    <value>September</value>
+  </data>
+  <data name="&gt;&gt;BtSeptember.Name" xml:space="preserve">
+    <value>BtSeptember</value>
+  </data>
+  <data name="&gt;&gt;BtSeptember.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtSeptember.Parent" xml:space="preserve">
+    <value>SPanel</value>
+  </data>
+  <data name="&gt;&gt;BtSeptember.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;LabelMonth.Name" xml:space="preserve">
+    <value>LabelMonth</value>
+  </data>
+  <data name="&gt;&gt;LabelMonth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelMonth.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;LabelMonth.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LabelActivities.Name" xml:space="preserve">
+    <value>LabelActivities</value>
+  </data>
+  <data name="&gt;&gt;LabelActivities.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelActivities.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;LabelActivities.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 426</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="ColumnActivity.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -135,19 +717,181 @@
   <metadata name="ColumnDate.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 82</value>
+  </data>
+  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>544, 300</value>
+  </data>
+  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LabelActivities.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelActivities.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15mm</value>
+  </data>
+  <data name="LabelActivities.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="LabelActivities.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 65</value>
+  </data>
+  <data name="LabelActivities.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LabelActivities.Text" xml:space="preserve">
+    <value>Activties of</value>
+  </data>
+  <data name="&gt;&gt;LabelActivities.Name" xml:space="preserve">
+    <value>LabelActivities</value>
+  </data>
+  <data name="&gt;&gt;LabelActivities.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelActivities.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;LabelActivities.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <metadata name="ColumnActivity.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="ColumnActivity.HeaderText" xml:space="preserve">
+    <value>Activity</value>
+  </data>
   <metadata name="ColumnBenefit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="ColumnBenefit.HeaderText" xml:space="preserve">
+    <value>Benefit</value>
+  </data>
   <metadata name="ColumnCost.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="ColumnCost.HeaderText" xml:space="preserve">
+    <value>Cost</value>
+  </data>
   <metadata name="ColumnCostForeign.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="ColumnCostForeign.HeaderText" xml:space="preserve">
+    <value>Cost Foreign Currency</value>
+  </data>
   <metadata name="ColumnDate.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="ColumnDate.HeaderText" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="LabelMonth.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelMonth.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15mm</value>
+  </data>
+  <data name="LabelMonth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 13</value>
+  </data>
+  <data name="LabelMonth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 65</value>
+  </data>
+  <data name="LabelMonth.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;LabelMonth.Name" xml:space="preserve">
+    <value>LabelMonth</value>
+  </data>
+  <data name="&gt;&gt;LabelMonth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelMonth.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;LabelMonth.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>877, 426</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>893, 465</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>893, 465</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>A.R.E</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnActivity.Name" xml:space="preserve">
+    <value>ColumnActivity</value>
+  </data>
+  <data name="&gt;&gt;ColumnActivity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnBenefit.Name" xml:space="preserve">
+    <value>ColumnBenefit</value>
+  </data>
+  <data name="&gt;&gt;ColumnBenefit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnCost.Name" xml:space="preserve">
+    <value>ColumnCost</value>
+  </data>
+  <data name="&gt;&gt;ColumnCost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnCostForeign.Name" xml:space="preserve">
+    <value>ColumnCostForeign</value>
+  </data>
+  <data name="&gt;&gt;ColumnCostForeign.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnDate.Name" xml:space="preserve">
+    <value>ColumnDate</value>
+  </data>
+  <data name="&gt;&gt;ColumnDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
