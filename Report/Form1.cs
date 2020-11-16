@@ -118,5 +118,10 @@ namespace Report
         {
             LabelMonth.Text = "December";
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            LabelMonth.Text = "January";
+        }
     }
 }

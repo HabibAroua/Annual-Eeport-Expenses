@@ -65,9 +65,9 @@
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel1.Controls.Add(this.BtHide);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(803, 0);
+            this.panel1.Location = new System.Drawing.Point(828, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(47, 426);
+            this.panel1.Size = new System.Drawing.Size(49, 426);
             this.panel1.TabIndex = 1;
             // 
             // BtHide
@@ -75,7 +75,7 @@
             this.BtHide.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtHide.Location = new System.Drawing.Point(0, 0);
             this.BtHide.Name = "BtHide";
-            this.BtHide.Size = new System.Drawing.Size(47, 23);
+            this.BtHide.Size = new System.Drawing.Size(49, 23);
             this.BtHide.TabIndex = 0;
             this.BtHide.Text = "Hide";
             this.BtHide.UseVisualStyleBackColor = true;
@@ -97,9 +97,9 @@
             this.SPanel.Controls.Add(this.BtFebruary);
             this.SPanel.Controls.Add(this.BtJanuary);
             this.SPanel.Dock = System.Windows.Forms.DockStyle.Right;
-            this.SPanel.Location = new System.Drawing.Point(603, 0);
+            this.SPanel.Location = new System.Drawing.Point(652, 0);
             this.SPanel.Name = "SPanel";
-            this.SPanel.Size = new System.Drawing.Size(200, 426);
+            this.SPanel.Size = new System.Drawing.Size(176, 426);
             this.SPanel.TabIndex = 2;
             // 
             // timer1
@@ -235,7 +235,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(603, 426);
+            this.panel2.Size = new System.Drawing.Size(652, 426);
             this.panel2.TabIndex = 3;
             // 
             // dataGridView1
@@ -249,7 +249,7 @@
             this.ColumnDate});
             this.dataGridView1.Location = new System.Drawing.Point(45, 82);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(497, 300);
+            this.dataGridView1.Size = new System.Drawing.Size(544, 300);
             this.dataGridView1.TabIndex = 0;
             // 
             // LabelActivities
@@ -300,12 +300,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(850, 426);
+            this.ClientSize = new System.Drawing.Size(877, 426);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.SPanel);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "A.R.E";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.SPanel.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
