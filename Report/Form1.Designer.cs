@@ -45,6 +45,7 @@
             this.BtNovember = new System.Windows.Forms.Button();
             this.BtOctober = new System.Windows.Forms.Button();
             this.BtSeptember = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SPanel.SuspendLayout();
             this.SuspendLayout();
@@ -203,11 +204,21 @@
             this.BtSeptember.Text = "September";
             this.BtSeptember.UseVisualStyleBackColor = true;
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.Control;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(603, 426);
+            this.panel2.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(850, 426);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.SPanel);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
@@ -235,6 +246,7 @@
         private System.Windows.Forms.Button BtMars;
         private System.Windows.Forms.Button BtFebruary;
         private System.Windows.Forms.Button BtJanuary;
+        private System.Windows.Forms.Panel panel2;
     }
 }
 
