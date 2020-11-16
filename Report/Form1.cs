@@ -123,5 +123,10 @@ namespace Report
         {
             LabelMonth.Text = "January";
         }
+
+        private void BtTest_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(dataGridView1.Rows[0].Cells[0].Value.ToString());
+        }
     }
 }
