@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -126,7 +127,38 @@ namespace Report
 
         private void BtTest_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(dataGridView1.Rows[0].Cells[0].Value.ToString());
+            //MessageBox.Show(dataGridView1.Rows[0].Cells[0].Value.ToString());
+            /*bool folderExists = Directory.Exists(@"C:\Users\lenovo\Documents\My_Report");
+            if (!folderExists)
+            {
+                Directory.CreateDirectory(@"C:\Users\lenovo\Documents\My_Report");
+            }
+            else
+            {
+                MessageBox.Show("This folder is already created","",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
+            }*/
+            try
+            {
+                MessageBox.Show(""+double.Parse(dataGridView1.Rows[0].Cells[2].Value.ToString()) + 2);
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("You should enter a number value","Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Console.WriteLine("Error : " + ex.Message);
+            }
+        }
+
+        private void dataGridView1_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        {
+            try
+            {
+                double x = double.Parse(dataGridView1.Rows[0].Cells[2].Value.ToString()) + 5;
+                dataGridView1.Rows[0].Cells[3].Value = x.ToString();
+            }
+            catch(Exception ex)
+            {
+
+            }
         }
     }
 }

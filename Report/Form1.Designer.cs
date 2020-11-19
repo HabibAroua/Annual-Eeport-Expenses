@@ -33,29 +33,29 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.BtHide = new System.Windows.Forms.Button();
             this.SPanel = new System.Windows.Forms.Panel();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.BtJanuary = new System.Windows.Forms.Button();
-            this.BtFebruary = new System.Windows.Forms.Button();
-            this.BtApril = new System.Windows.Forms.Button();
-            this.BtMars = new System.Windows.Forms.Button();
-            this.BtAgustus = new System.Windows.Forms.Button();
-            this.BtJuly = new System.Windows.Forms.Button();
-            this.BtJune = new System.Windows.Forms.Button();
-            this.BtMay = new System.Windows.Forms.Button();
             this.btDecember = new System.Windows.Forms.Button();
             this.BtNovember = new System.Windows.Forms.Button();
             this.BtOctober = new System.Windows.Forms.Button();
             this.BtSeptember = new System.Windows.Forms.Button();
+            this.BtAgustus = new System.Windows.Forms.Button();
+            this.BtJuly = new System.Windows.Forms.Button();
+            this.BtJune = new System.Windows.Forms.Button();
+            this.BtMay = new System.Windows.Forms.Button();
+            this.BtApril = new System.Windows.Forms.Button();
+            this.BtMars = new System.Windows.Forms.Button();
+            this.BtFebruary = new System.Windows.Forms.Button();
+            this.BtJanuary = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.BtTest = new System.Windows.Forms.Button();
+            this.LabelMonth = new System.Windows.Forms.Label();
             this.LabelActivities = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.ColumnActivity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnBenefit = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnCost = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnCostForeign = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.LabelMonth = new System.Windows.Forms.Label();
-            this.BtTest = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SPanel.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -94,37 +94,33 @@
             resources.ApplyResources(this.SPanel, "SPanel");
             this.SPanel.Name = "SPanel";
             // 
-            // timer1
+            // btDecember
             // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            resources.ApplyResources(this.btDecember, "btDecember");
+            this.btDecember.Name = "btDecember";
+            this.btDecember.UseVisualStyleBackColor = true;
+            this.btDecember.Click += new System.EventHandler(this.btDecember_Click);
             // 
-            // BtJanuary
+            // BtNovember
             // 
-            resources.ApplyResources(this.BtJanuary, "BtJanuary");
-            this.BtJanuary.Name = "BtJanuary";
-            this.BtJanuary.UseVisualStyleBackColor = true;
-            this.BtJanuary.Click += new System.EventHandler(this.BtJanuary_Click);
+            resources.ApplyResources(this.BtNovember, "BtNovember");
+            this.BtNovember.Name = "BtNovember";
+            this.BtNovember.UseVisualStyleBackColor = true;
+            this.BtNovember.Click += new System.EventHandler(this.BtNovember_Click);
             // 
-            // BtFebruary
+            // BtOctober
             // 
-            resources.ApplyResources(this.BtFebruary, "BtFebruary");
-            this.BtFebruary.Name = "BtFebruary";
-            this.BtFebruary.UseVisualStyleBackColor = true;
-            this.BtFebruary.Click += new System.EventHandler(this.BtFebruary_Click);
+            resources.ApplyResources(this.BtOctober, "BtOctober");
+            this.BtOctober.Name = "BtOctober";
+            this.BtOctober.UseVisualStyleBackColor = true;
+            this.BtOctober.Click += new System.EventHandler(this.BtOctober_Click);
             // 
-            // BtApril
+            // BtSeptember
             // 
-            resources.ApplyResources(this.BtApril, "BtApril");
-            this.BtApril.Name = "BtApril";
-            this.BtApril.UseVisualStyleBackColor = true;
-            this.BtApril.Click += new System.EventHandler(this.BtApril_Click);
-            // 
-            // BtMars
-            // 
-            resources.ApplyResources(this.BtMars, "BtMars");
-            this.BtMars.Name = "BtMars";
-            this.BtMars.UseVisualStyleBackColor = true;
-            this.BtMars.Click += new System.EventHandler(this.BtMars_Click);
+            resources.ApplyResources(this.BtSeptember, "BtSeptember");
+            this.BtSeptember.Name = "BtSeptember";
+            this.BtSeptember.UseVisualStyleBackColor = true;
+            this.BtSeptember.Click += new System.EventHandler(this.BtSeptember_Click);
             // 
             // BtAgustus
             // 
@@ -154,33 +150,37 @@
             this.BtMay.UseVisualStyleBackColor = true;
             this.BtMay.Click += new System.EventHandler(this.BtMay_Click);
             // 
-            // btDecember
+            // BtApril
             // 
-            resources.ApplyResources(this.btDecember, "btDecember");
-            this.btDecember.Name = "btDecember";
-            this.btDecember.UseVisualStyleBackColor = true;
-            this.btDecember.Click += new System.EventHandler(this.btDecember_Click);
+            resources.ApplyResources(this.BtApril, "BtApril");
+            this.BtApril.Name = "BtApril";
+            this.BtApril.UseVisualStyleBackColor = true;
+            this.BtApril.Click += new System.EventHandler(this.BtApril_Click);
             // 
-            // BtNovember
+            // BtMars
             // 
-            resources.ApplyResources(this.BtNovember, "BtNovember");
-            this.BtNovember.Name = "BtNovember";
-            this.BtNovember.UseVisualStyleBackColor = true;
-            this.BtNovember.Click += new System.EventHandler(this.BtNovember_Click);
+            resources.ApplyResources(this.BtMars, "BtMars");
+            this.BtMars.Name = "BtMars";
+            this.BtMars.UseVisualStyleBackColor = true;
+            this.BtMars.Click += new System.EventHandler(this.BtMars_Click);
             // 
-            // BtOctober
+            // BtFebruary
             // 
-            resources.ApplyResources(this.BtOctober, "BtOctober");
-            this.BtOctober.Name = "BtOctober";
-            this.BtOctober.UseVisualStyleBackColor = true;
-            this.BtOctober.Click += new System.EventHandler(this.BtOctober_Click);
+            resources.ApplyResources(this.BtFebruary, "BtFebruary");
+            this.BtFebruary.Name = "BtFebruary";
+            this.BtFebruary.UseVisualStyleBackColor = true;
+            this.BtFebruary.Click += new System.EventHandler(this.BtFebruary_Click);
             // 
-            // BtSeptember
+            // BtJanuary
             // 
-            resources.ApplyResources(this.BtSeptember, "BtSeptember");
-            this.BtSeptember.Name = "BtSeptember";
-            this.BtSeptember.UseVisualStyleBackColor = true;
-            this.BtSeptember.Click += new System.EventHandler(this.BtSeptember_Click);
+            resources.ApplyResources(this.BtJanuary, "BtJanuary");
+            this.BtJanuary.Name = "BtJanuary";
+            this.BtJanuary.UseVisualStyleBackColor = true;
+            this.BtJanuary.Click += new System.EventHandler(this.BtJanuary_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // panel2
             // 
@@ -191,6 +191,23 @@
             this.panel2.Controls.Add(this.dataGridView1);
             resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
+            // 
+            // BtTest
+            // 
+            resources.ApplyResources(this.BtTest, "BtTest");
+            this.BtTest.Name = "BtTest";
+            this.BtTest.UseVisualStyleBackColor = true;
+            this.BtTest.Click += new System.EventHandler(this.BtTest_Click);
+            // 
+            // LabelMonth
+            // 
+            resources.ApplyResources(this.LabelMonth, "LabelMonth");
+            this.LabelMonth.Name = "LabelMonth";
+            // 
+            // LabelActivities
+            // 
+            resources.ApplyResources(this.LabelActivities, "LabelActivities");
+            this.LabelActivities.Name = "LabelActivities";
             // 
             // dataGridView1
             // 
@@ -203,11 +220,7 @@
             this.ColumnDate});
             resources.ApplyResources(this.dataGridView1, "dataGridView1");
             this.dataGridView1.Name = "dataGridView1";
-            // 
-            // LabelActivities
-            // 
-            resources.ApplyResources(this.LabelActivities, "LabelActivities");
-            this.LabelActivities.Name = "LabelActivities";
+            this.dataGridView1.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellValueChanged);
             // 
             // ColumnActivity
             // 
@@ -233,18 +246,6 @@
             // 
             resources.ApplyResources(this.ColumnDate, "ColumnDate");
             this.ColumnDate.Name = "ColumnDate";
-            // 
-            // LabelMonth
-            // 
-            resources.ApplyResources(this.LabelMonth, "LabelMonth");
-            this.LabelMonth.Name = "LabelMonth";
-            // 
-            // BtTest
-            // 
-            resources.ApplyResources(this.BtTest, "BtTest");
-            this.BtTest.Name = "BtTest";
-            this.BtTest.UseVisualStyleBackColor = true;
-            this.BtTest.Click += new System.EventHandler(this.BtTest_Click);
             // 
             // Form1
             // 
