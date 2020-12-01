@@ -48,7 +48,8 @@ namespace Model
 
         public override string ToString()
         {
-            return base.ToString()+"Activity : "+this.Activity+", " +
+            return base.ToString()+
+                "Activity : "+this.Activity+", " +
                 "Benefit : "+this.Benefit+", " +
                 "Cost : "+this.Cost+", " +
                 "Cost With Foregin Currency : "+this.Cost_with_foreign_currency;
