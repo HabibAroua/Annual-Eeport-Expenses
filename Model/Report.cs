@@ -19,7 +19,7 @@ namespace Model
 
         public Report()
         {
-
+            //Nothing
         }
 
         public string Activity
