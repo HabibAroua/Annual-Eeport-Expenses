@@ -45,8 +45,10 @@ namespace Report
                 dataGridView1.Columns[0].Width -= 4;
                 dataGridView1.Columns[1].Width -= 4;
                 dataGridView1.Columns[2].Width -= 4;
-                dataGridView1.Columns[3].Width -= 4;
-                dataGridView1.Columns[4].Width -= 1;
+                dataGridView1.Columns[3].Width -= 6;
+                dataGridView1.Columns[4].Width -= 4;
+                LabelMonth.Width -= 5;
+                LabelActivities.Width -= 5;
                 if (SPanel.Width>=PW)
                 {
                     timer1.Stop();
@@ -61,8 +63,10 @@ namespace Report
                 dataGridView1.Columns[0].Width += 4;
                 dataGridView1.Columns[1].Width += 4;
                 dataGridView1.Columns[2].Width += 4;
-                dataGridView1.Columns[3].Width += 4;
-                dataGridView1.Columns[4].Width += 1;
+                dataGridView1.Columns[3].Width += 6;
+                dataGridView1.Columns[4].Width += 4;
+                LabelMonth.Width += 5;
+                LabelActivities.Width += 5;
                 if (SPanel.Width<=0)
                 {
                     timer1.Stop();
