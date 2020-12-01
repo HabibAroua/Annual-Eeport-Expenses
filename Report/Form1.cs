@@ -41,7 +41,13 @@ namespace Report
             if(Hided)
             {
                 SPanel.Width += 20;
-                if(SPanel.Width>=PW)
+                dataGridView1.Width -= 21;
+                dataGridView1.Columns[0].Width -= 4;
+                dataGridView1.Columns[1].Width -= 4;
+                dataGridView1.Columns[2].Width -= 4;
+                dataGridView1.Columns[3].Width -= 4;
+                dataGridView1.Columns[4].Width -= 1;
+                if (SPanel.Width>=PW)
                 {
                     timer1.Stop();
                     Hided = false;
@@ -51,7 +57,13 @@ namespace Report
             else
             {
                 SPanel.Width -= 20;
-                if(SPanel.Width<=0)
+                dataGridView1.Width += 21;
+                dataGridView1.Columns[0].Width += 4;
+                dataGridView1.Columns[1].Width += 4;
+                dataGridView1.Columns[2].Width += 4;
+                dataGridView1.Columns[3].Width += 4;
+                dataGridView1.Columns[4].Width += 1;
+                if (SPanel.Width<=0)
                 {
                     timer1.Stop();
                     Hided = true;
@@ -157,7 +169,7 @@ namespace Report
             }
             catch(Exception ex)
             {
-
+                Console.WriteLine("Error : " + ex.Message);
             }
         }
     }
