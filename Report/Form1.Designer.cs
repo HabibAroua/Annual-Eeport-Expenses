@@ -257,7 +257,6 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
-            this.ShowInTaskbar = false;
             this.TransparencyKey = System.Drawing.Color.Blue;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
