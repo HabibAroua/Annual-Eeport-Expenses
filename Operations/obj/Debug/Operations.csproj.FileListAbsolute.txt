@@ -1,0 +1,9 @@
+C:\Users\lenovo\Documents\GitHub\annual-report-expenses\Operations\bin\Debug\Operations.dll
+C:\Users\lenovo\Documents\GitHub\annual-report-expenses\Operations\bin\Debug\Operations.pdb
+C:\Users\lenovo\Documents\GitHub\annual-report-expenses\Operations\bin\Debug\Model.dll
+C:\Users\lenovo\Documents\GitHub\annual-report-expenses\Operations\bin\Debug\Model.pdb
+C:\Users\lenovo\Documents\GitHub\annual-report-expenses\Operations\obj\Debug\Operations.csprojAssemblyReference.cache
+C:\Users\lenovo\Documents\GitHub\annual-report-expenses\Operations\obj\Debug\Operations.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Documents\GitHub\annual-report-expenses\Operations\obj\Debug\Operations.csproj.CopyComplete
+C:\Users\lenovo\Documents\GitHub\annual-report-expenses\Operations\obj\Debug\Operations.dll
+C:\Users\lenovo\Documents\GitHub\annual-report-expenses\Operations\obj\Debug\Operations.pdb
