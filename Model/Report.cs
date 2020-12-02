@@ -9,12 +9,13 @@ namespace Model
     public class Report
     {
 
-        public Report(string Activity , string Benefit , double Cost , double Cost_with_foreign_currency)
+        public Report(string Activity , string Benefit , double Cost , double Cost_with_foreign_currency , string Date)
         {
             this.Activity = Activity;
             this.Benefit = Benefit;
             this.Cost = Cost;
             this.Cost_with_foreign_currency = Cost_with_foreign_currency;
+            this.Date = Date;
         }
 
         public Report()
@@ -46,13 +47,20 @@ namespace Model
             set;
         }
 
+        public string Date
+        {
+            get;
+            set;
+        }
+
         public override string ToString()
         {
             return base.ToString()+
                 "Activity : "+this.Activity+", " +
                 "Benefit : "+this.Benefit+", " +
                 "Cost : "+this.Cost+", " +
-                "Cost With Foregin Currency : "+this.Cost_with_foreign_currency;
+                "Cost With Foregin Currency : "+this.Cost_with_foreign_currency+", "+
+                "Date : "+this.Date;
         }
     }
 }
