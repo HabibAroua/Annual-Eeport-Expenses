@@ -8,15 +8,27 @@ namespace Model
 {
     public class Data
     {
-        public Report [] Reports
+        public string Month
         {
             get;
             set;
         }
 
+        public List<Report> Reports
+        {
+            get;
+            set;
+        }
+
+        public Data(string Month)
+        {
+            this.Month = Month;
+            Reports = new List<Report>();
+        }
+
         public Data()
         {
-            Reports = new Report[12];
+            Reports = new List<Report>();
         }
 
     }
