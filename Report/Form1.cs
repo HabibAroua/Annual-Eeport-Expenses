@@ -153,8 +153,8 @@ namespace Report
             {
                 MessageBox.Show("This folder is already created","",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
             }*/
-            Report.Collection.Calcul calcul = new Collection.Calcul(dataGridView1);
-            calcul.AddLine(LabelMonth.Text.ToString());
+            Report.Collection.Operation operation = new Collection.Operation(dataGridView1);
+            operation.AddLine(LabelMonth.Text.ToString());
         }
 
         private void dataGridView1_CellValueChanged(object sender, DataGridViewCellEventArgs e)
