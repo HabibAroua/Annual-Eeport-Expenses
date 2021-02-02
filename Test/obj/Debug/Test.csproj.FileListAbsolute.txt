@@ -1,0 +1,8 @@
+C:\Users\lenovo\Documents\GitHub\annual-report-expenses\Test\bin\Debug\Test.exe.config
+C:\Users\lenovo\Documents\GitHub\annual-report-expenses\Test\bin\Debug\Test.exe
+C:\Users\lenovo\Documents\GitHub\annual-report-expenses\Test\bin\Debug\Test.pdb
+C:\Users\lenovo\Documents\GitHub\annual-report-expenses\Test\bin\Debug\Test.exe.CodeAnalysisLog.xml
+C:\Users\lenovo\Documents\GitHub\annual-report-expenses\Test\bin\Debug\Test.exe.lastcodeanalysissucceeded
+C:\Users\lenovo\Documents\GitHub\annual-report-expenses\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Documents\GitHub\annual-report-expenses\Test\obj\Debug\Test.exe
+C:\Users\lenovo\Documents\GitHub\annual-report-expenses\Test\obj\Debug\Test.pdb
