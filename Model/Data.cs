@@ -14,7 +14,7 @@ namespace Model
             set;
         }
 
-        public List<Report> Reports
+        public List<Line> Reports
         {
             get;
             set;
@@ -23,12 +23,12 @@ namespace Model
         public Data(string Month)
         {
             this.Month = Month;
-            Reports = new List<Report>();
+            Reports = new List<Line>();
         }
 
         public Data()
         {
-            Reports = new List<Report>();
+            Reports = new List<Line>();
         }
 
     }
